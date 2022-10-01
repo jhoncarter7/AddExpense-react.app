@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+.expensedate-list {
+    border: 2px solid white;
+    padding: 1.5rem 1.5rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    box-shadow: 0 .6rem 2rem rgba(0, 0, 0, .4);
+    background-color: rgb(47, 46, 46);
+    border-radius: 2.5rem;
+    /* margin: 1.5rem; */
+    font-family: Noto, sans, JP;
+    font-weight: 400;
+}
+
+.expensedate-list__month {
+    font-style: bold;
+
+
+}
+
+.expensedate-list__day {
+    font-weight: 400;
+}
+
+
+.expensedate-list__year {
+    font-weight: 400;
+}
